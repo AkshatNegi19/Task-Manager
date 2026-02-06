@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+}
+
+#task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  background: white;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.task button {
+  margin-right: 5px;
+}
